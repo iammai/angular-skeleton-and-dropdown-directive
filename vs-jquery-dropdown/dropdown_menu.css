@@ -1,0 +1,48 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+.unit {
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.unit:last-child {
+    border-bottom: none;
+}
+
+.menu-item {
+  background-color: pink;
+}
+
+.submenu-item {
+    display: none;
+    background-color: violet;
+    position: relative;
+    left: 200px;
+    top: -70px;
+}
+
+.sub2menu-item {
+    display: none;
+    background-color: lightgreen;
+    position: relative;
+    left: 200px;
+    top: -70px;
+}
+
+.menu-item.has-submenu:hover .submenu-item {
+    display: block;
+}
+
+.submenu-item.has-sub2menu:hover .sub2menu-item {
+    display: block;
+}
+
+.container {
+    float:right;
+    height: 100%;
+}

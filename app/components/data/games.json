@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "CLG vs TSM",
+        "season_id": 1,
+        "submitted_by": null,
+        "submitted_by_id": null,
+        "upvotes": 99,
+        "videos": [
+            {
+                "type": "picks_and_bans",
+                "type_id": 1,
+                "id": "U-xDxQ57Ycg",
+                "start": 570
+            },
+            {
+                "type": "game_start",
+                "type_id": 2,
+                "id": "U-xDxQ57Ycg",
+                "start": 984
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "CLG vs Cloud 9",
+        "season_id": 1,
+        "submitted_by": null,
+        "submitted_by_id": null,
+        "upvotes": 200,
+        "videos": [
+            {
+                "type": "picks_and_bans",
+                "type_id": 1,
+                "id": "t3JBOh8GoY8",
+                "start": 0
+            },
+            {
+                "type": "game_start",
+                "type_id": 2,
+                "id": "t3JBOh8GoY8",
+                "start": 313
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Cloud 9 vs TSM",
+        "season_id": 1,
+        "submitted_by": null,
+        "submitted_by_id": null,
+        "upvotes": 10,
+        "videos": [
+            {
+                "type": "picks_and_bans",
+                "type_id": 1,
+                "id": "JTmJeeYdQWM",
+                "start": 0
+            },
+            {
+                "type": "game_start",
+                "type_id": 2,
+                "id": "JTmJeeYdQWM",
+                "start": 366
+            }
+        ]
+    }
+]

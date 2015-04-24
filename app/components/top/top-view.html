@@ -1,0 +1,21 @@
+<div class="container">
+
+    <i class="mdi-action-description"></i> Example of Top, Game, Video, Panel Directive, and Service Components in AngularJS Skeleton Application
+
+    <ul class="collection" ng-controller="TopController">
+        <li href="#!" class="collection-item" ng-repeat="game in games | orderBy:'-upvotes' | limitTo:10 ">
+            <a class="btn-floating btn-large waves-effect waves-light pink upvote"><i class="mdi-maps-navigation"></i><span class="upvote-count">{{game.upvotes}}</span></a>
+            <a href="/#/games/{{game.id}}">
+                <span class="story-header">{{game.name}}</span>
+                <span class="badge"><i class="mdi-action-pageview"></i></span>
+            </a>
+        </li>
+    </ul>
+
+    <div>
+        <i class="mdi-action-description"></i>An Example of an instance of a Dropdown Menu Directive in AngularJS vs <a href="vs-jquery-dropdown/index.html">Simple jQuery Dropdown</a>
+
+        <!-- Dropdown Menu  -->
+        <dropdown-menu></dropdown-menu>
+    </div>
+</div>

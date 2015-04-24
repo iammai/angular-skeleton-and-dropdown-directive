@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <base href="/">
+
+    <title>Angular Skeleton App and Dropdown Directive Comparison</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/styles/css/styles.css">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="assets/libs/materialize/dist/css/materialize.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+
+    <!-- JS -->
+    <script src="assets/libs/angular/angular.js"></script>
+    <script src="assets/libs/angular-route/angular-route.js"></script>
+    <script src="assets/libs/angular-bootstrap/ui-bootstrap.min.js"></script>
+
+    <!-- ANGULAR CUSTOM -->
+    <script src="application.js"></script>
+    <script src="app/components/constants/configurationConstants.js"></script>
+    <script src="app/components/services/gameService.js"></script>
+    <script src="app/components/top/TopController.js">s</script>
+    <script src="app/components/game/GameController.js"></script>
+    <script src="app/components/panel/panelDirective.js"></script>
+    <script src="app/components/video/videoDirective.js"></script>
+    <script src="app/components/dropdown/dropdownDirective.js"></script>
+
+</head>
+<body ng-app="application">
+
+<!-- HEADER -->
+<nav class="primary-color" role="navigation">
+    <div class="container">
+        <div class="nav-wrapper"><a id="logo-container" href="/#/" class="brand-logo">Angular Skeleton</a>
+            <a href="/#/" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        </div>
+    </div>
+</nav>
+
+<!-- ANGULAR DYNAMIC CONTENT -->
+<div ng-view></div>
+
+
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="assets/libs/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="assets/libs/materialize/dist/js/materialize.min.js"></script>
+
+</body>
+</html>

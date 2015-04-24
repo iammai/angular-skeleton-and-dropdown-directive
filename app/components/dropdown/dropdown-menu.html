@@ -1,0 +1,13 @@
+<div id="menu-space">
+    <div class="menu-item unit" ng-click="dropdown.selectItem('Item 1',$event)">Item 1</div>
+    <div class="menu-item unit" ng-click="dropdown.selectItem('Item 2', $event)">Item 2</div>
+    <div class="menu-item unit has-submenu" ng-click="dropdown.selectItem('Item 3', $event)">Item 3
+        <div class="submenu-item unit" ng-click="dropdown.selectSubItem('Sub 1', $event)">Sub 1</div>
+        <div class="submenu-item unit" ng-click="dropdown.selectSubItem('Sub 2', $event)">Sub 2</div>
+        <div class="submenu-item unit has-sub2menu" ng-click="dropdown.selectSubItem('Sub 3', $event)">Sub 3
+            <div class="sub2menu-item unit" ng-click="dropdown.selectSub2Item('SubSub 1', $event)">SubSub 1</div>
+            <div class="sub2menu-item unit" ng-click="dropdown.selectSub2Item('SubSub 2', $event)">SubSub 2</div>
+            <div class="sub2menu-item unit" ng-click="dropdown.selectSub2Item('SubSub 3', $event)">SubSub 3</div></div>
+    </div>
+</div>
+
