@@ -13,8 +13,17 @@
 <body>
 
 <div id="menu-space">
+    <div class="menu-item unit">Item 1</div>
+    <div class="menu-item unit">Item 2</div>
+    <div class="menu-item unit has-submenu">Item 3
+        <div class="submenu-item unit">Sub 1</div>
+        <div class="submenu-item unit">Sub 2</div>
+        <div class="submenu-item unit has-sub2menu">Sub 3
+            <div class="sub2menu-item unit">SubSub 1</div>
+            <div class="sub2menu-item unit">SubSub 2</div>
+            <div class="sub2menu-item unit">SubSub 3</div></div>
+    </div>
 </div>
-
 
 <div class="container">
     Note: This is a simple dropdown with jQuery! Check out how you can implement this dropdown as a directive in <a href="https://github.com/iammai/angular-skeleton-app-directive-example" target="_blank">iammai's Angular Skeleton repo</a>
